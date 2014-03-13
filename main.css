@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	width: 980px;
+	height: 598px;
+	}
+a {
+	text-decoration: none;
+	color: #404040;
+}
+a:hover {
+	text-decoration: underline;
+}
+.top {
+	height: 60px;
+	font-family: arial, sans-serif;
+	font-size: small;
+	width: 100%;
+	line-height: 60px; /*this makes the words vertically centered, by matching the height*/
+	position:absolute
+}
+.nav {
+	float:right;
+	margin-right: 15px;
+}
+#signin {
+	height: 30px;
+	width: 71px;
+	border: 1px solid #4284f4;
+	background: #4285f4;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	text-align: center;
+	line-height: 30px;
+	color:white;
+	font-weight:bold;
+	border-radius: 2px;
+	font-family: arial, sans-serif;
+	top: 15px;
+	position: relative;
+	margin-right: 30px;
+	text-decoration: none;
+}
+.griddimensions {
+	vertical-align: middle;
+	height: 22px;
+	width: 22px;
+	opacity: 0.75;
+}
+.griddimensions:hover {
+	opacity: 1.0;
+}
+.middle {
+height: 420px;
+}
+.image {
+	text-align:center;
+	padding-top: 200px;
+	padding-bottom: 20px;
+		}
+#picdimensions {		
+	width: 270px;
+	height: 95px;
+}
+#mikebox {
+	margin-left:230px;
+	height: 27px;
+	width: 570px;
+	border: 1px solid #B9B9B9;
+	font-family: arial;
+	font-size: medium;
+	background-image: url('images/microphone.png');
+	background-position: right;
+	background-size: 5%;
+	background-repeat: no-repeat;
+}
+.helpbuttons {
+margin-top: 16px;
+margin-left: 400px;
+}
+.buttons {
+margin-right: 10px;
+width: 115px;
+height: 25px;
+border: 1px solid #dcdcdc;
+background-color: #f8f8f8;
+border-radius: 2px;
+color: #444;
+text-align: center;
+font-size: 11px;
+font-weight: bold;
+}
+.footer {
+	position: absolute;
+	background: #f2f2f2;
+	height: 41px;
+	width: 100%;
+	font-family: arial,sans-serif;
+	line-height: 41px;
+	font-size: small;
+	bottom: 0; /*this made it stick to the bottom*/
+}
+.left {
+	margin-left: 30px;
+}
+.right {
+	float: right;
+	margin-right: 30px;
+}
